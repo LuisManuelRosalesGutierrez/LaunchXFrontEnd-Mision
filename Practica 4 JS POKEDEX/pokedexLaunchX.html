@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="pokedexLaunchX.css">
+</head>
+<body>
+        <h1>Pokedex LaunchX</h1>
+        <div class="marco">
+            <img src="./img/pokebola.png" alt="pokemon" width="180px" id="pokeImage" class="pokimg">
+            <img src="./img/pokedexinfo2.png" alt="pokedexinfo" class="pokedex">
+            <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName" class="pokeName" onchange="fetchPokemon()"> 
+            <button class="boton" onclick="fetchPokemon()">Buscar</button>
+            <p id="pokeType" class="tipo"></p>
+            <p id="pokeweight" class="peso"></p>
+            <p id="pokeheight" class="altura"></p>
+            <p id="pokeid" class="id"></p>
+            <li class="habilidades1">Habiliades:</li>            
+            <p id="abilities" class="habilidades"></p>
+            <li class="estadisticas1">Estadisticas:</li>            
+            <p id="stats1" class="estadistica1">asd</p>
+            <p id="stats2" class="estadistica2">asd</p>
+            <p id="stats3" class="estadistica3">asd</p>
+            <p id="stats4" class="estadistica4">asd</p>
+            <p id="stats5" class="estadistica5">asd</p>
+            <p id="stats6" class="estadistica6">asd</p>
+        </div>    
+</body>
+<footer>
+    <script src="./pokedexLaunchX.js"></script>
+</footer>
+</html>
